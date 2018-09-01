@@ -9,14 +9,15 @@ users spend 87% of their time on native apps and 13% to the mobile web
 
 Average user installs 0 apps a month and visit over 100 websites a month.
 
-##Native Apps:
-###Advantages:
+## Native Apps:
+
+### Advantages:
 
 * Fast and quick to respond
 * smooth consistent self contained UI
 * works consistently well off line
 
-###Disadvantages:
+### Disadvantages:
 
 * different languages between android, IOS(and other platforms) and web
 * expensive to develop
@@ -24,18 +25,18 @@ Average user installs 0 apps a month and visit over 100 websites a month.
 * slow inconsistent upgrades(you rely on users to upgrade)
 * apps don’t have longevity(users might un install them)
 
-#PWA’s to the rescue:
+# PWA’s to the rescue:
 
-##What are PWA’s?
+## What are PWA’s?
 
 Progressive Web Apps are the return of the web and the first proper contender to native applications. Take your web products and make them work off line, get notification options and keep them up-to-date without pestering the user. Written in js.
 
-##Companies with PWA’s:
+## Companies with PWA’s:
 
 * [link A](https://themanifest.com/app-development/11-examples-progressive-web-apps)
 * [Link B](https://pwa.rocks)
 
-##Why PWA’s
+## Why PWA’s
 
 * Have most of the benefits of native Apps; performance
 * write once work everywhere
@@ -43,15 +44,15 @@ Progressive Web Apps are the return of the web and the first proper contender to
 * off line.
 * consistent UI
 
-##Limitations
+## Limitations
 
 * Not reliable for sold apps.
 * Not be able to access some of the mobile device feature/sensors.(May change with time)
 
 
-#Getting Started:
+# Getting Started:
 
-##Service worker:
+## Service worker:
 
 proxy server -  sits between browser and the network
 A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
@@ -66,7 +67,7 @@ The service worker becomes idle when not in use and restarts when it's next need
 
 Service workers make extensive use of promises, so if you're new to promises, then you should stop reading this and check out [Promises, an introduction](https://developers.google.com/web/fundamentals/primers/promises).
 
-##Caching:
+## Caching:
 
 The Service Worker API comes with a Cache interface(cache API), that lets you create stores of responses keyed by request. While this interface was intended for service workers it is actually exposed on the window, and can be accessed from anywhere in your scripts. The entry point is caches.
 
@@ -76,7 +77,7 @@ Recomended for the network resources necessary to load your app while offline.
 
 [For more information](https://developer.mozilla.org/en-US/docs/Web/API/Cache)
 
-##Indexdb:
+## Indexdb:
 
 IndexedDB is a large-scale, NoSQL storage system. It lets you store just about anything in the user's browser. In addition to the usual search, get, and put actions, IndexedDB also supports transactions. Here is the definition of IndexedDB on MDN:
 
